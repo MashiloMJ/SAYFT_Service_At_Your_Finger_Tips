@@ -1,0 +1,38 @@
+.dh-heading-lg {
+  font-weight: bold;
+  font-size: 120px;
+  color: #0257fe;
+}
+
+.dh-heading-sm {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.dh-highlight-left {
+  text-align: right;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+@media (max-width:991px) {
+  .dh-highlight-left {
+    border-right-style: none;
+  }
+}
+
+@media (max-width:767px) {
+  .dh-heading-lg {
+    font-weight: bold;
+    font-size: 70px;
+    color: #0257fe;
+  }
+}
+
+@media (max-width:767px) {
+  .dh-heading-sm {
+    font-weight: bold;
+    font-size: 25px;
+  }
+}
+
